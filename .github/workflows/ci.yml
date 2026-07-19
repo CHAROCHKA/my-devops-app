@@ -16,5 +16,5 @@ jobs:
 
       - name: Build and push
         run: |
-          docker build -t ghcr.io/${{ github.actor }}/my-devops-app:latest .
-          docker push ghcr.io/${{ github.actor }}/my-devops-app:latest
+          docker build -t ghcr.io/charochka/my-devops-app:latest .
+          docker push ghcr.io/charochka/my-devops-app:latest
